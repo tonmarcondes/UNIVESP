@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div>
+        <h2>
+            Calculadora
+        </h2>
+        <h3>
+            Informe os dois numeros:
+        </h3>
+    </div>
+    <div>
+        Numero 1 <input type="text" id="num1">
+        <br>
+        Numero 2 <input type="text" id="num2">
+    </div>
+    <div>
+        <h3>
+            Escolha a operacao:
+        </h3>
+        <button onclick="somar()">Somar</button>
+        <button onclick="subtrair()">Subtrair</button>
+        <br>
+        <h3>
+            Resultado
+        </h3>
+        <p id="resultado">(Resultado)</p>
+    </div>
+    <script>
+        let n1 = document.getElementById("num1");
+        let n2 = document.getElementById("num2");
+
+        function somar() {
+            let soma = parseInt(n1.value) + parseInt(n2.value);
+            document.getElementById("resultado").innerHTML = soma;
+        }
+
+        function subtrair() {
+            let subtracao = parseInt(n1.value) - parseInt(n2.value);
+            document.getElementById("resultado").innerHTML = subtracao;
+        }
+    </script>
+</body>
+</html>

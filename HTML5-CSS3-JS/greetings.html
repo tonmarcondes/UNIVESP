@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>.:: Javascritp - 03 ::</title>
+        <meta charset="utf-8"/>
+
+        <script>
+            const canal = 'CFB Cursos'
+
+            //window.alert(canal);
+            //window.confirm(canal);
+
+            let usuario = window.prompt('Qual o seu nome?', 'Insira aqui');
+
+            let time = new Date();
+            let hora = time.getHours();
+            let min = time.getMinutes();
+            let hr = hora + ':' + min;
+
+            let greeting;
+
+            if (hora >= 0 && hora < 12){
+                greeting = ('Bom dia! ');
+            }else if (hora >= 12 < 6){
+                greeting = ('Boa tarde! ');
+            }else{
+                greeting = ('Boa noite! ');
+            }
+
+            document.write(greeting +'<strong>'+ usuario + '</strong>');
+        </script>
+
+    </head>
+
+
+</html>

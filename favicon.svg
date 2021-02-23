@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="144.06952mm"
+   height="143.77235mm"
+   viewBox="0 0 144.06952 143.77235"
+   version="1.1"
+   id="svg2308"
+   inkscape:version="1.1-dev (0486c1a, 2020-10-10)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2304" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.45014485"
+     inkscape:cx="595.36391"
+     inkscape:cy="589.81015"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="787"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-47.609673,-72.582863)">
+    <rect
+       style="fill:#008000;stroke-width:0.220631"
+       id="rect2310"
+       width="143.77234"
+       height="143.77234"
+       x="47.609673"
+       y="72.582863" />
+    <path
+       style="fill:#ffff00;stroke:none;stroke-width:0.594371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 191.38201,72.582864 67.818298,144.46866 191.38201,216.35522 Z"
+       id="path2312"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000080;stroke-width:0.20803"
+       id="path2314"
+       sodipodi:type="arc"
+       sodipodi:cx="191.67918"
+       sodipodi:cy="144.46906"
+       sodipodi:rx="41.592606"
+       sodipodi:ry="41.592606"
+       sodipodi:start="1.5707963"
+       sodipodi:end="4.712389"
+       sodipodi:arc-type="slice"
+       d="m 191.67918,186.06166 a 41.592606,41.592606 0 0 1 -36.02025,-20.7963 41.592606,41.592606 0 0 1 0,-41.59261 41.592606,41.592606 0 0 1 36.02025,-20.7963 v 41.59261 z" />
+  </g>
+</svg>

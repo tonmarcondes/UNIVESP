@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>.:: Javascritp - 03 ::</title>
+        <meta charset="utf-8"/>
+
+        <script>
+            let user = (window.prompt('Qual o seu nome?', 'Digite aqui'));
+            let semana;
+            let dia = new Date().getDay();
+
+            switch(dia){
+                case 0:
+                    semana = document.write(user + ' hoje é ' + 'Domingo');
+                    break;
+                case 1:
+                    semana = document.write(user + ' hoje é ' + 'Segunda-feira');
+                    break;
+                case 2:
+                    semana = document.write(user + ' hoje é ' + 'Terça-feira');
+                    break;
+                case 3:
+                    semana = document.write(user + ' hoje é ' + 'Quarta-feira');
+                    break;
+                case 4:
+                    semana = document.write(user + ' hoje é ' + 'Quinta-feira');
+                    break;
+                case 5:
+                    semana = document.write(user + ' hoje é ' + 'Sexta-feira');
+                    break;
+                default:
+                    semana = document.write(user + ' hoje é ' + 'Sábado');
+                    break;
+                    
+            }
+        </script>
+
+    </head>
+
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>.:: Javascritp - 03 ::</title>
+        <meta charset="utf-8"/>
+
+        <script>
+            let usuario = window.prompt('Qual o seu nome?', 'Insira aqui');
+            let horas = window.prompt(usuario + ' quantas horas trabalhou essa semana?', 'Apenas horas inteiras')
+            
+            horas = parseInt(horas);
+
+            if (horas > 44){
+                document.write(usuario + ' você tem ' + (horas - 44) + ' horas extra!');
+            }else if (horas == 44){
+                document.write('Parabéns ' + usuario + ' você não deve horas para a empresa!');
+            }else{
+                document.write(usuario + ' você está devendo ' + (44 - horas) + ' horas para a empresa!')
+            }
+        </script>
+
+    </head>
+
+
+</html>

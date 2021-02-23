@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>.:: Javascritp - 03 ::</title>
+        <meta charset="utf-8"/>
+
+        <script>
+            let continuar = true;
+            let nome;
+            let n1, n2, n3, n4, media;
+            while (continuar) {
+                nome = window.prompt('Qual o seu nome?', 'Digite aqui');
+                n1 = parseFloat(window.prompt('Digite a nota da prova 1', 'Digite aqui'));
+                n2 = parseFloat(window.prompt('Digite a nota da prova 2', 'Digite aqui'));
+                n3 = parseFloat(window.prompt('Digite a nota da prova 3', 'Digite aqui'));
+                n4 = parseFloat(window.prompt('Digite a nota da prova 4', 'Digite aqui'));
+
+                media = (n1 + n2 + n3 + n4) / 4;
+                
+                window.alert(nome + ', sua média foi ' + media);
+                continuar = window.confirm('Deseja inserir mais alunos?');
+            }
+        </script>
+
+    </head>
+
+
+</html>
