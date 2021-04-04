@@ -1,0 +1,10 @@
+section{
+    border: 3px solid #f00;
+    display: flex;
+    min-width: 500px;
+}
+
+div{
+    border: 1px solid #000;
+    flex: 1;
+}

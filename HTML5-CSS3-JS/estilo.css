@@ -1,0 +1,40 @@
+header{
+    margin-bottom: 100px;
+}
+
+nav {
+    background-color: #ff6347;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav div {
+    width: 120px;
+    min-width: 120px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section div{
+    border: 1px solid #ff6347;
+    width: 170px;
+    height: 100px;
+    margin: 7px;
+}
+
+footer{
+    display: flex;
+    background-color: #aaa;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

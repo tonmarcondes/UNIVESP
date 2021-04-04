@@ -1,0 +1,32 @@
+div {
+    border: 1px solid #000;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+ol, li, ul {
+    border: 1px solid #000;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+ol {
+    display: table;
+    margin-top: 10px;
+}
+ ul {
+     display: table-row;
+ }
+
+ li {
+     display: table-cell;
+ }
+ .hd {
+    background-color: #ff6347;
+
+ }

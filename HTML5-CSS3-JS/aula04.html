@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>.:: Javascritp - 03 ::</title>
+        <meta charset="utf-8"/>
+
+        <script>
+            const canal = 'CFB Cursos'
+
+            //window.alert(canal);
+            //window.confirm(canal);
+
+            let time = new Date();
+            let hora = time.getHours();
+            let min = time.getMinutes();
+            let hr = hora + ':' + min;
+
+            let nome = window.prompt('Insira o nome do usuário⬇︎' + hr,'Escreva seu nome');
+            let jan = window.prompt('Valor gasto','Informe os gastos do mês de Janeiro');
+            let fev = window.prompt('Valor gasto','Informe os gastos do mês de Fevereiro');
+            let mar = window.prompt('Valor gasto','Informe os gastos do mês de Março');
+            let total = (parseFloat(jan) + parseFloat(fev) + parseFloat(mar)) / 3
+            //document.write(nome) ;
+            if (5 > 4 && 3 < 4){
+                document.write('Sua média foi: ' + total)
+            }else if(nome){
+                document.write('Deu falso')
+            }
+
+            let horas = 11
+
+            if (hora == horas){
+                document.write('<br/><h2>Hora</h2> É igual a ' + horas)
+            }else if (hora > horas){
+                document.write('<br/><h2>Hora</h2> É maior que ' + horas)
+            }else if (hora < horas){
+                document.write('<br/><h2>Hora</h2> É menor que ' + horas)
+            }else{
+                document.write('<h1>NDA</h1>')
+            }
+        </script>
+
+    </head>
+
+
+</html>

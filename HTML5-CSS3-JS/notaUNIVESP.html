@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Nota UNIVESP</title>
+</head>
+<style>
+    body{
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div{
+        display: block;
+        height: 150px;
+        background: url(univesp_header.jpeg);
+        background-position: center;
+    }
+
+    h1, h3, p{
+        margin-left: 5px;
+        text-shadow: 1px 1px 1px;
+    }
+
+    p{
+        margin-top: 20px;
+    }
+
+    .aprovado{
+        color: #00DAD3;
+    }
+
+    .retido{
+        color: #FF002B;
+    }
+</style>
+<body>
+    <div></div>
+    <script>
+        let nome = window.prompt('Qual o seu nome?','Wellyngton');
+        let materia = window.prompt('Qual o nome da matéria?','Escreva qual a matéria').toUpperCase();
+        let n1 = window.prompt('Insira a média de N1','Digite a média das notas das atividades');
+        let n2 = window.prompt('Insira nota de N2','Digite a nota referente à prova');
+        let nota = ((n1 * 0.6) + (n2 * 0.4)).toFixed(2);
+
+        if (materia == ('Escreva qual a matéria').toUpperCase())
+        materia = '';
+        
+        if (nota >= 5){
+            document.write('<h1>' + nome + '</h1>');
+            document.write('<h3>' + materia + '</h3>');
+            document.write('<p><strong class = "aprovado">APROVADO</strong> com nota <strong class = "aprovado">' + nota + '</strong></p>');
+            window.alert('Parabéns, nota ' + nota);
+        } else {
+            document.write('<h1>' + nome + '</h1>');
+            document.write('<h3>' + materia + '</h3>');
+            document.write('<p><strong class = "retido">RETIDO</strong> com nota <strong class = "retido">' + nota + '</strong></p>');
+            window.alert('Retido ' + nota);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>.:: Javascritp - 03 ::</title>
+        <meta charset="utf-8"/>
+
+        <script>
+            let n1 = parseInt(window.prompt('Insira o primeiro número', 'Digite aqui'));
+            let n2 = parseInt(window.prompt('Insira o segundo número', 'Digite aqui'));
+            let op = window.prompt('Que operação deseja realizar?', 'Insira o símbolo');
+
+            switch(op){
+                case '+':
+                    document.write('A soma é igual a ' + (n1 + n2));
+                    break;
+                case '-':
+                    document.write('A subtração é igual a ' + (n1 - n2));
+                    break;
+                case '*':
+                    document.write('A multiplicação é igual a ' + (n1 * n2));
+                    break;
+                case '/':
+                    document.write('A divisão é igual a ' + (n1 / n2));
+                    break;
+                case '**':
+                    document.write('A divisão é igual a ' + (n1 ** n2));
+                    break;
+                default:
+                    document.write('Não é um número ou um operador válido');
+                    break;
+            }
+        </script>
+
+    </head>
+
+
+</html>

@@ -1,0 +1,20 @@
+ol{
+    display: table;
+    padding: 0px;
+}
+
+ul{
+    display: table-row;
+    padding: 0px;
+}
+
+li{
+    display: table-cell;
+    width: 70px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.head{
+    background-color: #FC3;
+}

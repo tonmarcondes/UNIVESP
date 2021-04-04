@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>.:: Javascritp - 03 ::</title>
+        <meta charset="utf-8"/>
+
+        <script>
+            let usuario = window.prompt('Qual o seu nome?', 'Insira aqui');
+            let data = new Date();
+            let dia = data.getDay();
+            let quinzena;
+
+            if (dia > 15){
+                quinzena = (' voce está na segunda quinzena!');
+            }else if (dia == 5){
+                quinzena = (' hoje é o dia do pagamento!');
+            }else{
+                quinzena = (' voce está na primeira quinzena');
+            }
+
+            document.write(usuario + quinzena);
+            
+        </script>
+
+    </head>
+
+
+</html>
