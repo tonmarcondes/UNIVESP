@@ -1,9 +1,7 @@
 #include <iostream>
-// Teste
 using namespace std;
 
-int main(){
-    int sum(int n1, int n2){
+int sum(int n1, int n2){
         return (n1 + n2);
     }
 
@@ -15,7 +13,9 @@ int main(){
         return (n1 * n2);
     }
 
-    int div(int n1, int n2){
+    int divi(int n1, int n2){
         return (n1 / n2);
     }
+int main(){
+    int a = 5, b = 3;
 }
